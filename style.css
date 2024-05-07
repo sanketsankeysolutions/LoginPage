@@ -1,0 +1,74 @@
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+  
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border: 1px solid black;
+    height: 449px;
+}
+  
+.loginform{
+    padding: 50px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.login-btn {
+    background-color: green;
+    color: white;
+    padding: 20px 20px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-btn {
+    background-color: #0e0f0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    gap: 3px;
+}
+#g-button{
+    background-color: green;
+}
+.google-btn img {
+    margin-right: 1px;
+    height: 20px;
+    
+}
+.removeUnderline{
+    text-decoration-line: none;
+}
+.input{
+    padding: 10px 2px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.remember-me {
+    margin-bottom: 10px; /* Adjust margin as needed */
+    display: flex;
+    justify-content: space-between;
+}
+.innerRemember{
+font-size: 14px;
+}
+
